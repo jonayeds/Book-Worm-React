@@ -1,0 +1,121 @@
+[
+    {
+      "id": 1,
+      "bookName": "To Kill a Mockingbird",
+      "author": "Harper Lee",
+      "image": "https://m.media-amazon.com/images/I/41j-s9fHJcL._SY445_SX342_.jpg",
+      "review": "A timeless classic that explores themes of racial injustice and moral growth.",
+      "totalPages": 281,
+      "rating": 4.5,
+      "category": "Fiction",
+      "tags": ["Classic", "Drama", "Race Relations"],
+      "publisher": "J. B. Lippincott & Co.",
+      "yearOfPublishing": 1960
+    },
+    {
+      "id": 2,
+      "bookName": "The Great Gatsby",
+      "author": "F. Scott Fitzgerald",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/7/7a/The_Great_Gatsby_Cover_1925_Retouched.jpg",
+      "review": "A masterpiece of American literature, capturing the decadence and disillusionment of the Jazz Age.",
+      "totalPages": 218,
+      "rating": 4.3,
+      "category": "Fiction",
+      "tags": ["Classic", "Romance", "Drama"],
+      "publisher": "Charles Scribner's Sons",
+      "yearOfPublishing": 1925
+    },
+    {
+      "id": 3,
+      "bookName": "1984",
+      "author": "George Orwell",
+      "image": "https://m.media-amazon.com/images/I/61NAx5pd6XL._AC_UF1000,1000_QL80_.jpg",
+      "review": "A dystopian novel that remains disturbingly relevant in its exploration of surveillance and authoritarianism.",
+      "totalPages": 328,
+      "rating": 4.6,
+      "category": "Fiction",
+      "tags": ["Dystopian", "Political", "Social Commentary"],
+      "publisher": "Secker & Warburg",
+      "yearOfPublishing": 1949
+    },
+    {
+      "id": 4,
+      "bookName": "Pride and Prejudice",
+      "author": "Jane Austen",
+      "image": "https://m.media-amazon.com/images/I/71Q1tPupKjL._AC_UF1000,1000_QL80_.jpg",
+      "review": "A sparkling comedy of manners that explores love, marriage, and social class in Regency England.",
+      "totalPages": 279,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Romance", "Classic", "Satire"],
+      "publisher": "T. Egerton, Whitehall",
+      "yearOfPublishing": 1813
+    },
+    {
+      "id": 5,
+      "bookName": "The Catcher in the Rye",
+      "author": "J.D. Salinger",
+      "image": "https://ds.rokomari.store/rokomari110/ProductNew20190903/260X372/b38578624_84881.jpg",
+      "review": "A coming-of-age novel that captures the alienation and disillusionment of adolescence.",
+      "totalPages": 224,
+      "rating": 4.2,
+      "category": "Fiction",
+      "tags": ["Coming-of-Age", "LiteraryFiction", "Teen"],
+      "publisher": "Little, Brown and Company",
+      "yearOfPublishing": 1951
+    },
+    {
+      "id": 6,
+      "bookName": "To the Lighthouse",
+      "author": "Virginia Woolf",
+      "image": "https://covers.storytel.com/jpg-640/9781515459200.899cf7d9-dc06-476c-8ba2-dbdf5cac6176?optimize=high",
+      "review": "An experimental novel that explores themes of memory, perception, and the passage of time.",
+      "totalPages": 209,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Modernist", "Stream of Consciousness", "Feminism"],
+      "publisher": "The Hogarth Press",
+      "yearOfPublishing": 1927
+    },
+    {
+      "id": 7,
+      "bookName": "The Hobbit",
+      "author": "J.R.R. Tolkien",
+      "image": "https://g.christianbook.com/g/slideshow/9/928227/main/928227_1_ftc.jpg",
+      "review": "A charming fantasy adventure set in Middle-earth, featuring hobbits, dwarves, and dragons.",
+      "totalPages": 310,
+      "rating": 4.7,
+      "category": "Fantasy",
+      "tags": ["Adventure", "Middle-earth", "Quest"],
+      "publisher": "George Allen & Unwin",
+      "yearOfPublishing": 1937
+    },
+    {
+      "id": 8,
+      "bookName": "The Alchemist",
+      "author": "Paulo Coelho",
+      "image": "https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1654371463i/18144590.jpg",
+      "review": "A philosophical novel about following one's dreams and the journey of self-discovery.",
+      "totalPages": 197,
+      "rating": 4.1,
+      "category": "Fiction",
+      "tags": ["Philosophical", "Inspirational", "Adventure"],
+      "publisher": "HarperCollins",
+      "yearOfPublishing": 1988
+    },
+    {
+      "id": 9,
+      "bookName": "The Picture of Dorian Gray",
+      "author": "Oscar Wilde",
+      "image": "https://static-01.daraz.com.bd/p/f078b436f022e22f82a99f8837c78b98.jpg",
+      "review": "A dark and decadent tale of vanity, corruption, and the pursuit of eternal youth.",
+      "totalPages": 254,
+      "rating": 4.4,
+      "category": "Fiction",
+      "tags": ["Gothic", "Philosophical", "Morality"],
+      "publisher": "Ward, Lock & Co.",
+      "yearOfPublishing": 1890
+    }
+    
+  ]
+  
