@@ -11,6 +11,8 @@ import  { Toaster } from 'react-hot-toast';
 import ReadBooks from './components/ReadBooks'
 import WishLIst from './components/WishLIst'
 import Error from './pages/Error'
+import BookReviews from './pages/BookReviews'
+import Contact from './pages/Contact'
 
 const router = createBrowserRouter([
   {
@@ -42,9 +44,18 @@ const router = createBrowserRouter([
         element: <ToReade></ToReade>
       },
       {
+        path: '/reviews',
+        element: <BookReviews></BookReviews>,
+        loader: ()=>fetch('../booklist.json')
+      },
+      {
+        path: '/contact',
+        element: <Contact></Contact>,
+      },
+      {
         path: '/book-details/:id',
         element: <BookDetails></BookDetails>,
-        loader: ()=> fetch(`../booklist.json`)
+        loader: ()=> fetch(`../booklist.json`),
       }
     ]
   }

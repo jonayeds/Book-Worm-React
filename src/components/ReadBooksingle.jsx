@@ -7,16 +7,16 @@ const ReadBooksingle = ({book}) => {
     const {bookName, author,  category,  tags, rating, publisher, totalPages, image, yearOfPublishing,id } =  book
     
     return (
-        <div className="flex gap-10  items-center my-6 w-full  border-solid border-gray-200 p-6 border-[1px] rounded-xl ">
+        <div className="flex gap-10 flex-col lg:flex-row items-center my-6 w-full  border-solid border-gray-200 p-6 border-[1px] rounded-xl ">
             <div>
                 <img src={image} alt="" className="h-80" />
             </div>
             <div className="flex-grow">
                 <h1 className="text-3xl font-semibold">{bookName}</h1>
                 <p className="text-gray-400 font-semibold my-6">By: {author}</p>
-                <div className="flex gap-32 ">
+                <div className="flex lg:gap-32 gap-6 flex-col lg:flex-row">
                     
-                <div className="flex gap-4  items-center">
+                <div className="flex gap-4  items-center flex-wrap">
                     <p>Tags:</p>
             {
                 
@@ -29,7 +29,7 @@ const ReadBooksingle = ({book}) => {
                 <CiLocationOn /> Year of Publishing: {yearOfPublishing}
                 </p>
                 </div>
-                <div className="flex  my-6 gap-32 text-gray-500">
+                <div className="flex flex-col lg:flex-row  my-6 lg:gap-32 gap-6 text-gray-500">
                     <p className="flex items-center gap-2
                     "><MdOutlinePeopleOutline />Publisher: {publisher}</p>
                     <p className="flex items-center gap-2"><SlBookOpen />Pages: {totalPages}</p>

@@ -4,7 +4,7 @@ import Books from '../components/Books';
 const Home = () => {
   const data = useLoaderData()
   
-  console.log(data)
+  // console.log(data)
   const{id} =data
   return (
     <div>
